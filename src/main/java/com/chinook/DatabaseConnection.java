@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-
+    // Using environment variables for security
     private static final String PROTO = System.getenv("CHINOOK.DB.PROTO");
     private static final String HOST = System.getenv("CHINOOK.DB.HOST");
     private static final String PORT = System.getenv("CHINOOK.DB.PORT");
