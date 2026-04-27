@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 import java.util.Vector;
-
+// Task 4.3: Add new track functionality
 public class TracksTab extends JPanel {
 
     private JTable tracksTable;
