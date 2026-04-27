@@ -5,7 +5,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.sql.*;
 import java.util.Vector;
-
+// Task 4.1 & 4.2: Employee table with filter
 public class EmployeesTab extends JPanel {
 
     private JTable employeeTable;
