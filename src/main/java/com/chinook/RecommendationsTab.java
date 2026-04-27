@@ -5,7 +5,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.sql.*;
 import java.util.Vector;
-
+// Task 4.7: Customer recommendations engine
 public class RecommendationsTab extends JPanel {
 
     private JComboBox<String> customerCombo;
