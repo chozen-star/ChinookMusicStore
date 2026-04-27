@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
 import java.util.Vector;
-
+// Task 4.5 & 4.6: Customer CRUD and inactive customers
 public class CustomersTab extends JPanel {
 
     private JTable activeCustomerTable;
